@@ -29,12 +29,12 @@
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
-        <item>35</item>
+        <item>25</item>
     </integer-array>
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>25</item>
+        <item>22</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about hitting a scroll barrier -->
@@ -49,10 +49,10 @@
     <bool name="config_intrusiveNotificationLed">false</bool>
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">false</bool>
+<!--    <bool name="config_multiColorBatteryLed">false</bool>-->
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
-    <bool name="config_ledCanPulse">false</bool>
+<!--    <bool name="config_ledCanPulse">false</bool>-->
 
 </resources>
