@@ -19,14 +19,12 @@ $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := ultra_osprey
+PRODUCT_NAME := lineage_osprey
 PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey
-
-WITH_ROOT := false
